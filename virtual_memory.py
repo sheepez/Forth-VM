@@ -1,6 +1,9 @@
 class cell(object):
+<<<<<<< HEAD
     """For Forth's purposes memory is divided into cells.
        This cell can store a signed number of a variable bit length."""
+=======
+>>>>>>> 66600304f88f9ef78103e373953f442d2799191d
     def __init__(self,bit_count):
         self.bits = bit_count
         self._val = 0
